@@ -33,9 +33,5 @@ spec:
           }
       }
   }
-  post {
-    success {
-        build quietPeriod: 0, wait: false, job: 'faisal-packer-project2'  
-    }
-  }
+
 }
